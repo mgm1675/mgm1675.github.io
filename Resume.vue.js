@@ -2,7 +2,7 @@ const Resume = {
   template: `
   <Navigation/>
   <div class="container-fluid">
-  Resume
+  <embed src="resume.pdf"/>
   </div>
   `,
 };

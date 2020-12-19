@@ -15,9 +15,9 @@ const Navigation = {
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-link" href="#"><router-link class="nav-link" to="/">Home</router-link></a>
-					<a class="nav-link" href="#"><router-link class="nav-link" to="/contact">Contact</router-link></a>
-					<a class="nav-link" href="#"><router-link class="nav-link" to="/resume">Resume</router-link></a>
+					<router-link class="nav-link" to="/">Home</router-link>
+					<router-link class="nav-link" to="/contact">Contact</router-link>
+					<router-link class="nav-link" to="/resume">Resume</router-link>
 				</div>
 			</div>
 		 </div>

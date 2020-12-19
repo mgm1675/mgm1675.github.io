@@ -39,6 +39,7 @@
 <body>
 <div id="app">
 <Navigation/>
+<router-view></router-view>
 </div>
 </body>
 <script>
@@ -69,11 +70,6 @@ Vue.use(VueRouter)
   var app = new Vue({
     el: "#app",
     router: router,
-    data() {
-      return {
-        authstatus: false,
-      };
-    },
   });
 </script>
 </html>
